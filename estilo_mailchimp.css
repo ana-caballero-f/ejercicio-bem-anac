@@ -1,0 +1,93 @@
+/*IMAGEN CHIMP (BLOQUE IZQ)*/
+body {
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+#bloque_chimp {
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 1049px;
+    margin-left: 250px;
+    float: left;
+    background-color: white;
+}
+
+#img_mono {
+    /* border: 1px solid red; */
+    margin: 100px 30px 0px 150px ;
+}
+
+/*BLOQUE DERECHO*/
+h1, p, form {
+    margin-left: 400px;
+    margin-right: 140px;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 3.5em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#bloque_derecho {
+    /*border: 10px solid red;*/
+    background-color: white;
+    margin:-15px 150px 0 300px;
+    padding-right: 200px;
+    padding-top: 50px;
+    height: 1000px;
+}
+#tx_find_people {
+    font-size: 19px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+/*inputs*/
+input {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    width: 600px;
+    height: 40px;
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+/*listados*/
+li {
+    font-size: 18px;
+}
+#primer_listado {
+    padding: 0px;
+    margin-left: 15px;
+    display: inline-block;
+}
+#segundo_listado {
+    margin-left: 140px;
+    display: inline-block;
+}
+
+/*btns submit y checkbox*/
+#btn_submit {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid grey;
+}
+#sign {
+    text-decoration: none;
+    color: grey;
+}
+#btn_checkbox {
+    margin: 20px 10px 20px 50px;
+    width: 30px;
+}
+#tx_not_want {
+    display: inline-block;
+    position: absolute;
+    margin: 25px 200px 0px 0px;
+    padding-right: 400px;
+}
